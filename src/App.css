@@ -401,7 +401,7 @@ button{
 .projectcard-inner{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   border: 1px solid #854ce6;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;
   overflow: hidden;
@@ -437,13 +437,12 @@ button{
 .pcard-img{
   width: 100%;
   height: 200px;
-  padding: 0.5rem;
+  margin-top: 10px;
   object-fit: cover;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 .projectcard-item{
-  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -462,9 +461,14 @@ button{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 5px;
   font-size: 1.5rem;
   font-weight: 600;
-  letter-spacing: 1px;
+}
+
+.item-pcard-tag{
+  display: inline-block;
+  margin-right: 6px;
 }
 
 .pcard-title {

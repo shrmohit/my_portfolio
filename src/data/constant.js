@@ -235,7 +235,7 @@ export const projects = [
     tags: ["Html", "Css", "JavaScript", "React"],
     category: "web app",
     github: "https://github.com/shrmohit/my_portfolio",
-    webapp: "http://localhost:5173/react/",
+    webapp: "http://localhost:5173",
   },
   {
     id: 1,
@@ -272,6 +272,17 @@ export const projects = [
     category: "web app game",
     github: "https://github.com/shrmohit/SnakeGame",
     webapp: "http://127.0.0.1:5502/index.html",
+  },
+  {
+    id: 4,
+    title: "Landing Page",
+    date: "Aug 2024",
+    description: "Create a lamding page with showing different pages of dish.",
+    image: "https://i.ibb.co/vXDcvgm/Screenshot-2025-01-21-161054.png",
+    tags: ["Html", "Css"],
+    category: "web app",
+    github: "https://github.com/shrmohit/landing-page",
+    webapp: "http://127.0.0.1:5500/landing-page-master/index.html",
   },
 ];
 
