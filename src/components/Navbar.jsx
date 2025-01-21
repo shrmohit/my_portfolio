@@ -27,7 +27,7 @@ function Navbar() {
           <a href="#contact">Contact</a>
         </div>
 
-        <a href={Bio.resume} target="_blank">
+        <a href={Bio.github} target="_blank">
           <button className="btn-github">GitHub</button>
         </a>
 
