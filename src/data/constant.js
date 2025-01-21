@@ -227,12 +227,11 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "portfolio",
-    date: "oct 2024",
+    title: "Portfolio",
+    date: "Oct 2024",
     description:
-      "I am a passionate Frontend Developer specializing in creating visually appealing, responsive, and user-friendly web interfaces. From sleek designs to seamless user experiences, my projects showcase creativity and attention to detail. Explore my work and let’s create something amazing together!",
-    image:
-      "https://drive.google.com/file/d/1MAO3Ch7oHWwFcdLDzPOqpKy2CKystR9F/view?usp=drivesdk",
+      "Developed a web application Portfolio to show my project and working experience.",
+    image: "https://i.ibb.co/j6LdH89/Screenshot-2025-01-21-113313.png",
     tags: ["Html", "Css", "JavaScript", "React"],
     category: "web app",
     github: "https://github.com/shrmohit/my_portfolio",
@@ -241,11 +240,10 @@ export const projects = [
   {
     id: 1,
     title: "Weather app",
-    date: "sep2024",
+    date: "Sep2024",
     description:
       "Developed a web application that allows users to search for weather information.",
-    image:
-      "https://drive.google.com/file/d/1M9MfEErnyiL1qOuoHMzHYL14bInLHPDd/view?usp=drivesdk",
+    image: "https://i.ibb.co/ZBtTtfk/Screenshot-2025-01-21-113559.png",
     tags: ["Html", "Css", "JavaScript"],
     category: "web app",
     github: "https://github.com/shrmohit/weather-app",
@@ -254,11 +252,10 @@ export const projects = [
   {
     id: 2,
     title: "Todo-App",
-    date: "sep 2024",
+    date: "Sep 2024",
     description:
       "Developed a web application that allows users to write own todo task, complete and delete.",
-    image:
-      "https://drive.google.com/file/d/1M81nvsL71zTegJwTdmNF3z5UI9AHmJrd/view?usp=drivesdk",
+    image: "https://i.ibb.co/98nDgt6/Screenshot-2025-01-21-113723.png",
     tags: ["Html", "Css", "JavaScript"],
     category: "web app",
     github: "https://github.com/shrmohit/Todo-list",
@@ -270,7 +267,7 @@ export const projects = [
     date: "sep 2024",
     description: "Developed a web Game that allows users to play game.",
     image:
-      "https://drive.google.com/file/d/1Gi5I_DVoXBLeEvI11DkNm5zhlaqXcgXb/view?usp=drivesdk",
+      "https://i.ibb.co/Q9PNtXf/Whats-App-Image-2025-01-08-at-20-22-07-70604717.jpg",
     tags: ["Html", "Css", "JavaScript"],
     category: "web app game",
     github: "https://github.com/shrmohit/SnakeGame",

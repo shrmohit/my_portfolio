@@ -8,13 +8,14 @@ function ProjectCard() {
         <div className="projectcard-inner">
           <img className="pcard-img" src={project.image} alt="" />
           <div className="projectcard-item">
-            <h3 className="pcard-tag">{project.tags}</h3>
+            <h2 className="pcard-tag">{project.tags}</h2>
             <h1 className="pcard-title">{project.title}</h1>
             <h5 className="pcard-date">{project.date}</h5>
             <p className="pcard-desc">
-            {project.description.length > 100
-            ? `${project.description.substring(0, 100)}...`
-            : project.description}</p>
+              {project.description.length > 100
+                ? `${project.description.substring(0, 100)}...`
+                : project.description}
+            </p>
           </div>
         </div>
       ))}
