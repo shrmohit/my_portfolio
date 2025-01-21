@@ -227,7 +227,7 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Portfolio",
+    title: "Portfolio Website",
     date: "Oct 2024",
     description:
       "Developed a web application Portfolio to show my project and working experience.",
@@ -264,7 +264,7 @@ export const projects = [
   {
     id: 3,
     title: "Snake Game",
-    date: "sep 2024",
+    date: "Sep 2024",
     description: "Developed a web Game that allows users to play game.",
     image:
       "https://i.ibb.co/Q9PNtXf/Whats-App-Image-2025-01-08-at-20-22-07-70604717.jpg",
