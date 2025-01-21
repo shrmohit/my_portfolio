@@ -9,7 +9,7 @@ import EducationCard from "./EducationCard";
 
 function Education() {
   return (
-    <div className="educs-container" id="contact">
+    <div className="educs-container" id="education">
       <div className="educs-section">
         <h1 className="educ-title">Education</h1>
         <p className="educ-para">
@@ -17,18 +17,18 @@ function Education() {
           education details are as follow
         </p>
         <div>
-            <VerticalTimeline lineColor="#fff">
-            {education.map((education) =>(
-                <VerticalTimelineElement
+          <VerticalTimeline lineColor="#fff">
+            {education.map((education) => (
+              <VerticalTimelineElement
                 key={education.id}
                 className="educs-verticaltimeline"
                 iconStyle={{ background: "#000", color: "#fff" }}
                 contentStyle={{ background: "#f9f9f9", color: "#333" }}
-                >
-                    <EducationCard education={education}/>
-                </VerticalTimelineElement>
+              >
+                <EducationCard education={education} />
+              </VerticalTimelineElement>
             ))}
-            </VerticalTimeline>
+          </VerticalTimeline>
         </div>
       </div>
     </div>
