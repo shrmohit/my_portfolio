@@ -225,6 +225,18 @@ export const education = [
 ];
 
 export const projects = [
+  {
+  id: 6,
+  title: "Real-Time Collaborative Editor",
+  date: "Feb 2025 - Mar 2025",
+  description:
+    "Built a real-time collaborative text editor where multiple users can edit documents simultaneously. Integrated WebSocket for live sync, with user presence indicators and document versioning.",
+  image: "https://i.ibb.co/6ffNxh2/Screenshot-2025-07-08-224652.png", 
+  tags: ["React", "Node.js", "Express", "Socket.io", "WebSocket"],
+  category: "Real-Time App",
+  github: "https://github.com/shrmohit/real_time_collaborative_editor", 
+  webapp: "https://collaborative-editor-demo.netlify.app", 
+}
    {
     id: 5,
     title: "Job Portal Website",
