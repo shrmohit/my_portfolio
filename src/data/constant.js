@@ -8,7 +8,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "A passionate Full-Stack Developer with a relentless hunger for learning and growth. I thrive on building scalable solutions, embrace challenges, and deliver high-quality results with a positive mindset and commitment to excellence.",
   github: "https://github.com/shrmohit",
   resume:
     "https://drive.google.com/file/d/1X4-MZWbhS2j-rEUSJzrtIM7LwLvMbLLx/view?usp=drivesdk",
