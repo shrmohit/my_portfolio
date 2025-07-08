@@ -226,9 +226,21 @@ export const education = [
 
 export const projects = [
   {
+  id: 9,
+  title: "RightStay - College Project",
+  date: "Nov 2024 - Feb 2025",
+  description:
+    "Created a full-stack accommodation booking platform for students and travelers. Features include user registration/login, property listings, search and filter by location or price, booking system, and an admin dashboard to manage stays and users.",
+  image: "https://i.ibb.co/YFh8MBxh/Whats-App-Image-2025-07-08-at-23-09-21-24471769.jpg", 
+  tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "TailwindCSS"],
+  category: "Full Stack Web App",
+  github: "https://github.com/shrmohit/RIGHTSTAY", // Replace with actual repo link
+  webapp: "https://rightstay-demo.netlify.app", // Replace with actual deployed link
+},
+  {
   id: 1,
   title: "E-Commerce Website",
-  date: "Feb 2025 - Apr 2025",
+  date: "Sep 2024 - Dec 2024",
   description:
     "Developed a full-featured e-commerce web application with product listings, cart functionality, user authentication, admin dashboard, and secure checkout. Integrated payment gateway and managed product data using MongoDB.",
   image: "https://i.ibb.co/cVYqKBk/Screenshot-2025-07-08-225639.png", 
@@ -241,7 +253,7 @@ export const projects = [
   {
   id: 2,
   title: "Real-Time Collaborative Editor",
-  date: "Feb 2025 - Mar 2025",
+  date: "Apr 2025 - May 2025",
   description:
     "Built a real-time collaborative text editor where multiple users can edit documents simultaneously. Integrated WebSocket for live sync, with user presence indicators and document versioning.",
   image: "https://i.ibb.co/6ffNxh2/Screenshot-2025-07-08-224652.png", 
@@ -253,7 +265,7 @@ export const projects = [
    {
     id: 3,
     title: "Job Portal Website",
-    date: "Mar 2025 - May 2025",
+    date: "May 2025 - Jul 2025",
     description:
       "Developed a full-stack Job Portal web application where recruiters can post jobs, and candidates can apply. Implemented user authentication, role-based access, and dynamic job listings.",
     image: "https://i.ibb.co/Kc9pL8XP/Screenshot-2025-07-08-223004.png",
@@ -277,7 +289,7 @@ export const projects = [
   {
     id: 5,
     title: "Weather app",
-    date: "Sep2024",
+    date: "Sep 2024",
     description:
       "Developed a web application that allows users to search for weather information.",
     image: "https://i.ibb.co/ZBtTtfk/Screenshot-2025-01-21-113559.png",
@@ -299,7 +311,7 @@ export const projects = [
     webapp: "http://127.0.0.1:5501/Todo-list-main/index.html",
   },
   {
-    id: 3,
+    id: 7,
     title: "Snake Game",
     date: "Sep 2024",
     description: "Developed a web Game that allows users to play game.",
@@ -311,7 +323,7 @@ export const projects = [
     webapp: "http://127.0.0.1:5502/index.html",
   },
   {
-    id: 7,
+    id: 8,
     title: "Landing Page",
     date: "Aug 2024",
     description: "Create a lamding page with showing different pages of dish.",
