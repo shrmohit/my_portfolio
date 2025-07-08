@@ -5,7 +5,7 @@ function Contactform() {
   return (
     <div className='contact-container'>
       <div className='contact-section'>
-        <h1>Contact Me</h1>
+       
         <div className='contactform-item'> 
           <form className='form-section' action="">
             <h1>Email Me</h1>
