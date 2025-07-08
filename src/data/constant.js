@@ -226,7 +226,20 @@ export const education = [
 
 export const projects = [
   {
-  id: 6,
+  id: 1,
+  title: "E-Commerce Website",
+  date: "Feb 2025 - Apr 2025",
+  description:
+    "Developed a full-featured e-commerce web application with product listings, cart functionality, user authentication, admin dashboard, and secure checkout. Integrated payment gateway and managed product data using MongoDB.",
+  image: "https://i.ibb.co/cVYqKBk/Screenshot-2025-07-08-225639.png", 
+  tags: ["React", "Node.js", "Express", "MongoDB", "Redux", "JWT", "Stripe"],
+  category: "Full Stack Web App",
+  github: "https://github.com/shrmohit/E-commerce", 
+  webapp: "https://ecommerce-demo-app.netlify.app",
+}
+,
+  {
+  id: 2,
   title: "Real-Time Collaborative Editor",
   date: "Feb 2025 - Mar 2025",
   description:
@@ -236,9 +249,9 @@ export const projects = [
   category: "Real-Time App",
   github: "https://github.com/shrmohit/real_time_collaborative_editor", 
   webapp: "https://collaborative-editor-demo.netlify.app", 
-}
+},
    {
-    id: 5,
+    id: 3,
     title: "Job Portal Website",
     date: "Mar 2025 - May 2025",
     description:
@@ -250,7 +263,7 @@ export const projects = [
     webapp: "https://job-portal-app-demo.netlify.app",
   },
   {
-    id: 0,
+    id: 4,
     title: "Portfolio Website",
     date: "Oct 2024",
     description:
@@ -262,7 +275,7 @@ export const projects = [
     webapp: "http://localhost:5173",
   },
   {
-    id: 1,
+    id: 5,
     title: "Weather app",
     date: "Sep2024",
     description:
@@ -274,7 +287,7 @@ export const projects = [
     webapp: "http://127.0.0.1:5500/weather-app-main/Index.html/",
   },
   {
-    id: 2,
+    id: 6,
     title: "Todo-App",
     date: "Sep 2024",
     description:
@@ -298,7 +311,7 @@ export const projects = [
     webapp: "http://127.0.0.1:5502/index.html",
   },
   {
-    id: 4,
+    id: 7,
     title: "Landing Page",
     date: "Aug 2024",
     description: "Create a lamding page with showing different pages of dish.",
