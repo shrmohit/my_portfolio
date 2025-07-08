@@ -529,13 +529,13 @@ text-align: left;
 
 /* CONTACT */
 
-.contact-container{
+.contact-container {
   max-width: 100%;
   background-color: #130F32;
   padding-bottom: 40px;
 }
 
-.contact-section{
+.contact-section {
   max-width: 100%;
   width: 80%;
   margin: auto;
@@ -543,51 +543,84 @@ text-align: left;
   padding-top: 2rem;
 }
 
-.contact-section h1{
+.contact-section h1 {
   color: white;
   font-size: 50px;
 }
 
-.form-section{
+.form-section {
   max-width: 100%;
   width: 40%;
   border: 2px solid #555;
   margin: auto;
   padding: 15px;
   border-radius: 1.4rem;
-  
 }
 
-.form-section h1{
+.form-section h1 {
   color: white;
 }
 
-.contactform-item form{
+.contactform-item form {
   display: flex;
   flex-direction: column;
 }
 
-.contactform-item .form-input{
+.contactform-item .form-input {
   padding: 20px;
   border-radius: 1.4rem;
   margin: 10px;
   border: none;
 }
 
-.contactform-item .form-message{
-  padding-block: 50px;
+.contactform-item .form-message {
+  padding: 20px;
   border-radius: 1.4rem;
   margin: 10px;
-  
+  border: none;
+  resize: none;
 }
 
-.form-section button{
+.form-section button {
   margin: 10px;
   padding: 20px;
   border-radius: 1.4rem;
   border: none;
-  background: hsla(271, 100%, 50%, 1);
+  color: white;
+  font-weight: bold;
   background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  cursor: pointer;
+}
+
+/* 🔽 Responsive CSS for mobile */
+@media screen and (max-width: 768px) {
+  .contact-section {
+    width: 90%;
+    padding-top: 1.5rem;
+  }
+
+  .contact-section h1 {
+    font-size: 32px;
+  }
+
+  .form-section {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .contactform-item .form-input,
+  .contactform-item .form-message {
+    padding: 15px;
+    font-size: 16px;
+    margin: 8px;
+  }
+
+  .form-message {
+    padding: 20px;
+  }
+
+  .form-section button {
+    padding: 15px;
+    font-size: 16px;
+  }
 }
