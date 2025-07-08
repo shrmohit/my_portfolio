@@ -31,7 +31,7 @@ function Herosection() {
         </div>
         <div className="hero-right">
           <div className="HeroBg">{/* <HeroBgAnimation/> */}</div>
-          <img src={HeroImg} className="hero_img" />
+          <img src="https://i.ibb.co/V0kVLJbF/hero-image.jpg" className="hero_img" />
         </div>
       </div>
     </div>
