@@ -13,82 +13,6 @@ body {
   color: #fdfdfd;
 }
 
-/* Optional: button tweaks for visibility in both themes */
-.btn-github {
-  transition: background 0.3s ease;
-}
-
-.dark .btn-github {
-  background-color: #fdfdfd;
-  color: #080917;
-  border-color: #fdfdfd;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-body {
-  margin: 0px !important;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  overflow-x: hidden;
-  padding-top: 90px;
-}
-
-button {
-  cursor: pointer;
-}
-
-.Header {
-  width: 100%;
-  height: 6rem;
-  background-color: #080917;
-  margin: auto;
-  position: fixed;
-  top: 0;
-  z-index: 9999;
-}
-
-.nav-container {
-  display: flex;
-  max-width: 100%;
-  width: 80%;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-  height: 6rem;
-}
-
-.nav-logo {
-  display: flex;
-  align-items: center;
-}
-.nav-logo-icon {
-  font-size: 40px;
-  color: white;
-}
-
-.nav-logo-text {
-  font-size: 20px;
-  color: #854ce6;
-}
-
-.nav-links a {
-  text-decoration: none;
-  margin-right: 15px;
-  color: white;
-}
-
 .nav-links a:hover {
   color: #854ce6;
 }
@@ -98,9 +22,15 @@ button {
   padding: 10px 35px;
   background-color: #080917;
   color: #854ce6;
-  border: none;
-  font-size: 20px;
   border: 1px solid #854ce6;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.dark .btn-github {
+  background-color: #fdfdfd;
+  color: #080917;
+  border-color: #fdfdfd;
 }
 
 .ham-menu {
@@ -132,16 +62,26 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
 
-    & a :first-child {
-      margin-top: 1.2rem;
-    }
+  .nav-mobile a:first-child {
+    margin-top: 1.2rem;
+  }
 
-    & a:last-child {
-      margin-bottom: 1.2rem;
-    }
+  .nav-mobile a:last-child {
+    margin-bottom: 1.2rem;
   }
 }
+
+/* Optional: Toggle button styling */
+.toggle-btn {
+  background-color: transparent;
+  color: inherit;
+  border: 1px solid currentColor;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
 
 /* Herosection */
 .hero-containner {
