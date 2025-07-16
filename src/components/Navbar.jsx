@@ -12,9 +12,9 @@ function Navbar() {
   });
 
   useEffect(() => {
-    document.documentElement.classList.toggle('dark', darkMode);
-    localStorage.setItem('theme', darkMode ? 'dark' : 'light');
-  }, [darkMode]);
+  document.documentElement.classList.toggle('dark', darkMode);
+  localStorage.setItem('theme', darkMode ? 'dark' : 'light');
+}, [darkMode]);
 
   function handlemenuToggle() {
     setshowMenu(!showMenu);
