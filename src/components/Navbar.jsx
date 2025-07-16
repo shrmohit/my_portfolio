@@ -1,10 +1,20 @@
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Bio } from "../data/constant";
+import { FaSun, FaMoon } from 'react-icons/fa';
 
 function Navbar() {
   const [showMenu, setshowMenu] = useState(false);
+
+  const [darkMode, setDarkMode] = useState(() => {
+    return localStorage.getItem('theme') === 'dark';
+  });
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', darkMode);
+    localStorage.setItem('theme', darkMode ? 'dark' : 'light');
+  }, [darkMode]);
 
   function handlemenuToggle() {
     setshowMenu(!showMenu);
@@ -31,6 +41,14 @@ function Navbar() {
           <button className="btn-github">GitHub</button>
         </a>
 
+        <div>
+          <button
+            onClick={() => setDarkMode(!darkMode)}
+            className="text-2xl p-2 rounded-full border"
+          >
+            {darkMode ? <FaSun /> : <FaMoon />}
+          </button>
+        </div>
         <div className="ham-menu">
           <button className="nav-menu" onClick={handlemenuToggle}>
             <FaBars className="menu-icon" />
